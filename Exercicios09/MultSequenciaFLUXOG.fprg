@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-28 09:48:55 "/>
+        <attribute name="created" value="T3duZXI7T1dORVItUEM7MjAyMS0wOS0yODsiMDQ6NTM6NDQgIjsyMzA5"/>
+        <attribute name="edited" value="T3duZXI7T1dORVItUEM7MjAyMS0wOS0yODsiMDk6NDg6NTUgIjsyOzI0Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um numero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <output expression="num" newline="True"/>
+            <while expression="num&lt;100">
+                <assign variable="num" expression="num*3"/>
+                <output expression="num" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

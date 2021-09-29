@@ -2,7 +2,7 @@ programa
 {
 	
 	funcao inicio()
-	{	
+	{	
 		inteiro num
 		
 		faca
@@ -10,8 +10,9 @@ programa
 			escreva ("Digite um numero: ")
 			leia (num)
 		}
-		enquanto (num < num)
-		escreva("Soma da sequencia: ",num)
+		enquanto(num < num)
+		
+		    escreva("Soma da sequencia: ",num+1)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 177; 
+ * @POSICAO-CURSOR = 180; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
