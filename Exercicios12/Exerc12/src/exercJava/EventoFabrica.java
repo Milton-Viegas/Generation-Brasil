@@ -1,4 +1,4 @@
-package Evento;
+package exercJava;
 
 import java.util.Scanner;
 

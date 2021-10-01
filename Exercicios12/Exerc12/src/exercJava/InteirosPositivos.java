@@ -1,4 +1,4 @@
-package Inteiros;
+package exercJava;
 
 import java.util.Scanner;
 
